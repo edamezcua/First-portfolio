@@ -8,7 +8,9 @@
     <div>
 <!-- navigation -->
       <header>
-       <h1>EDGAR AMEZCUA</h1>
+       <h1>
+         <a href="/">EDGAR AMEZCUA</a>
+       </h1>
        <nav>
          <!-- Unorded list elements -->
          <ul>
