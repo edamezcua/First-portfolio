@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Edgar Amezcua</title>
+  </head>
+  <body>
+    <div>
+<!-- navigation -->
+      <header>
+       <h1>EDGAR AMEZCUA</h1>
+      </header>
+  <!-- hero/jumbotron -->
+  <section>
+  </section>
+  <!-- about -->
+  <section>
+    <h2>About</h2>
+  </section>
+  <!-- work -->
+  <section>
+    <h2>Web</h2>
+  </section>
+  <section>
+    <h2>Games</h2>
+  </section>
+  <!-- experiance -->
+  <section>
+    <h2>Resume</h2>
+  </section>
+  <!-- contact info -->
+  <section> 
+    <H2>Contact</H2>
+  </section>
+    </div>
+  </body>
+</html>
+<footer>
+  <h2>Made by Edgar Amezcua</h2>
+</footer>
