@@ -9,6 +9,28 @@
 <!-- navigation -->
       <header>
        <h1>EDGAR AMEZCUA</h1>
+       <nav>
+         <!-- Unorded list elements -->
+         <ul>
+           <!-- List elements -->
+           <li>
+             <!-- Anchor elements -->
+             <a href="#home">Home</a>
+           </li>
+           <li>
+             <a href="#web">Web</a>
+           </li>
+           <li>
+             <a herf="#games">Games</a>
+           </li>
+           <li>
+             <a herf="#resume">Resume</a>
+           </li>
+           <li>
+             <a herf="#contact">Contact</a>
+           </li>
+         </ul>
+       </nav>
       </header>
   <!-- hero/jumbotron -->
   <section>
