@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="./assets/css/syles.css" />
     <link
       href="https//fonts.googleapis.com/css?family+Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
-      rel="stylesheet"
-    />
-    <script src="https://kit.fontawesome.com/e16fc768f7.js" crossorigin="anonymous"></script>
+      rel="stylesheet"/>
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/e16fc768f7.js" crossorigin="anonymous"></script>
   </head>
   <body>
   </head>
@@ -18,7 +18,7 @@
           <div class="logo">
               <img src="" alt="">
           </div>
-          <button class="nav-toggle" aria-label="toggle navigation">
+          <button class="nav-toggle" aria-label="toggle navigation" data-aos="zoom-out-right">
               <span class="hamburger"></span>
           </button>
           <nav class="nav">
@@ -32,7 +32,8 @@
       </header>
 
     <!-- Introduction-->
-    <section class="intro" id="home">
+    <section class="intro" id="home" data-aos="fade-up"
+    data-aos-duration="3000">
       <h1 class="section__title section__title--intro">
         Hi, I am <strong> Edgar Amezcua</strong>
       </h1>
@@ -88,7 +89,9 @@
     </section>
 
     <!--About Me-->
-    <section class="about-me" id="about">
+    <section class="about-me" id="about" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
       <h2 class="section__title section__title--about">Who I am</h2>
       <p class="section__subtitle section_subtitle--about">
         Web Developer out of Los Angeles
@@ -190,7 +193,10 @@
         </li>
     </ul>
 </footer>
-
 <script src="./assets/js/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
   </body>
 </html>
